@@ -1,17 +1,32 @@
-# anime_catalog
+# Лабораторная работа №4: Flutter - GridView и работа с данными
 
-A new Flutter project.
+## Студент
+**Фамилия Имя:** [Ваша Фамилия Имя]  
+**Группа:** [Ваша группа]  
+**Дата сдачи:** 21 апреля 2026 г.
 
-## Getting Started
+## Что изучили
 
-This project is a starting point for a Flutter application.
+1. **Работа с GridView** - научился создавать сеточные списки элементов с использованием виджетов GridView.count и GridView.builder
+2. **Модели данных в Dart** - освоил создание классов для представления данных и работу с коллекциями объектов
+3. **Работа с изображениями** - изучил как добавлять изображения в проект через папку assets и настраивать pubspec.yaml
+4. **Организация проекта** - понял принципы разделения кода на модели, данные и UI компоненты
+5. **Git и GitHub** - закрепил навыки работы с системой контроля версий: commit, push, работа с репозиторием
 
-A few resources to get you started if this is your first Flutter project:
+## Скриншот приложения
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+![Финальное приложение](img/step5_ВашаФамилия.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Инструкция по запуску
+
+### Требования
+- Flutter SDK (версия 3.0 или выше)
+- Dart SDK
+- Android Studio / VS Code
+
+### Установка
+
+1. Клонируйте репозиторий:
+```bash
+git clone [URL вашего репозитория]
+cd Flutter_Lab4

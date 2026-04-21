@@ -7,6 +7,7 @@ class AnimeCard extends StatelessWidget {
     required this.anime,
   });
   final Anime anime;
+
   @override
   Widget build(BuildContext context) {
     return Card(
@@ -34,7 +35,7 @@ class AnimeCard extends StatelessWidget {
     );
   }
 
-  Widget_buildPoster() {
+  Widget _buildPoster() {
     return Image.asset(
       anime.imagePath,
       height: 550,
@@ -43,7 +44,7 @@ class AnimeCard extends StatelessWidget {
     );
   }
 
-  Widget_buildInfo() {
+  Widget _buildInfo() {
     return Padding(
       padding: const EdgeInsets.all(12),
       child: Column(
@@ -62,7 +63,7 @@ class AnimeCard extends StatelessWidget {
     ); // Padding
   }
 
-  Widget_buildTitleRow() {
+  Widget _buildTitleRow() {
     return Row(
       mainAxisAlignment:
           MainAxisAlignment.spaceBetween,
@@ -87,7 +88,7 @@ class AnimeCard extends StatelessWidget {
     ); // Row
   }
 
-  Widget_buildGenre() {
+  Widget _buildGenre() {
     return Text(
       anime.genre,
       style: const TextStyle(
@@ -97,7 +98,7 @@ class AnimeCard extends StatelessWidget {
     ); // Text
   }
 
-  Widget_buildRating() {
+  Widget _buildRating() {
     return Row(
       children: [
         const Icon(
@@ -117,7 +118,7 @@ class AnimeCard extends StatelessWidget {
     ); // Row
   }
 
-  Widget_buildDescription() {
+  Widget _buildDescription() {
     return Text(
       anime.description,
       style: const TextStyle(
